@@ -1,0 +1,12 @@
+#include <mach/mach_types.defs>
+
+subsystem CMRServer 88888;      /* CM Render Server */
+userprefix      _CMRC;         /* Routine prefixes for user access. */
+serverprefix    _CMRS;         /* Routine prefixes for internal server access. */
+
+/* MainServer =====> Render */
+simpleroutine ResetRenderSize(
+server_port	: mach_port_t;
+in width : uint64_t;
+in height : uint64_t
+);
