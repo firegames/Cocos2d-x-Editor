@@ -13,7 +13,5 @@
 
 @property(nonatomic, readonly) LayoutHandler* layoutHanlder;
 
-- (IBAction)btnTestHierachyButtonTouched:(id)sender;
-
 @end
 

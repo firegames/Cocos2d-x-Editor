@@ -44,9 +44,5 @@
     // Insert code here to tear down your application
 }
 
-- (IBAction)btnTestHierachyButtonTouched:(id)sender
-{
-    NSLog(@"test1");
-}
 
 @end
